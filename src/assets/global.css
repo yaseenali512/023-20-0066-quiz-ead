@@ -1,0 +1,67 @@
+body {
+    background-color: #1F1D2B;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.welcome img {
+    margin-top: 50px;
+    width: 447px;
+    height: 448;
+    border-radius: 3%;
+}
+
+.welcome h1 {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+
+.welcome .others {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.auctions {
+    color: white;
+    ;
+}
+
+.discover {
+    color: white;
+}
+
+.others h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    color: white;
+
+}
+
+.myAuctions img {
+    width: 298px;
+    height: 313px;
+    border-radius: 3%;
+    object-fit: cover;
+}
